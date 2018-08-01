@@ -1,0 +1,307 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,700|Oleo+Script+Swash+Caps:400,700);
+
+@charset "UTF-8";
+/* CSS Document */
+/*font-family: 'Oleo Script Swash Caps', cursive;*/
+
+/**NAVIGATION**/
+
+#navbar{
+	width: auto;
+	padding: 0;
+	margin: 0;
+	background: ;
+	border-bottom: 4px solid #ee5230;
+	font-size: 1.1em;
+}
+
+
+#navbar a{
+	color:#000000;
+}
+
+#navbar a:visited{
+	color:#000000;
+}
+	
+#navbar a:hover{
+	color:#660000;
+	background:#fff;
+}
+
+ul.menu a {
+    text-transform: uppercase;
+	text-decoration:none;
+	font-weight:bold;
+	display: block;
+	padding: 5px;
+	margin: 5px;
+}
+
+ul.menu a:hover {
+	color:#660000;
+	font-weight:bold;
+}
+
+ul.menu li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 110px;
+}
+
+
+
+
+/** GENERAL LINK BEHAVIOR **/
+a {
+	color:#660000;
+
+	text-decoration:none;
+}
+
+a:hover {
+	background:#fff;
+	text-decoration:underline;
+	color:#660000;
+}
+
+
+
+/** GENERAL PAGE APPEARANCE **/
+
+body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px !important;
+	background: #ece9e1 url(../../custom/bg.jpg) repeat fixed;
+}
+.radius
+{
+	border-radius:5px;
+}
+h1,h2,h3,h4 {font-weight: 400 !important; font-family: 'Oleo Script Swash Caps', serif !important;}
+
+#container { /* FULL PAGE BG */
+    margin: 0 auto;
+    width: 100% !important;
+    background: transparent;
+}
+
+#body { /* CONTENT WHITE BG */
+    margin: 0 auto;
+    width: 990px !important;
+
+}
+.bcdimge
+{
+	background-image: #c9d4cc  url('http://promotionalcommunications.org/public/custom/header-bg.jpg') repeat fixed;
+}
+header{
+	width:100%;
+	margin: 0px auto;
+	position:relative;
+	background:none;
+	padding: 0;
+}
+
+#headerTitle { /* JUST THE HEADER BG */
+	width:990px; margin: 0px auto; padding: 0;position:relative
+	}
+
+#headerTitle h1 {margin: 5px 0; padding: 0;width: 650px; height: 182px;
+	background: none;
+	}
+
+#header #searchBar {
+	position: absolute;
+	bottom:20px;
+	right: 10px;
+	width: 360px;
+	font-size: 14px !important;
+	background: ;
+	color: #fff;
+}
+
+#header #searchBar a {color: #fff}
+#header #searchBar a:hover {background: #ee5230} 
+
+#header #searchBar .selectMenu {}
+#header #searchBar #query {padding: 5px; width: 150px;}
+#header #searchBar .button {padding: 5px; border: 0; background: #ee5230; color: #fff;}
+
+#header #searchBar #browse {padding: 0 0 20px 230px; display: block; height:; font-size: 0.9em;}
+#header #searchBar #browse ul {list-style: none; padding: 0 0 0 20px; margin: 0; }
+#header #searchBar #browse li {list-style: none; padding: 0 0 0 0px; margin: 0; width: 100px; }
+
+
+#main{
+   width:730px;
+   margin: 0;
+   padding: 0 10px;
+   float:left;
+}
+
+#content{
+	bottom-border:0px;
+	border-top:0px;
+   width:100%;
+}
+
+#main h2 {padding-bottom: 10px; background: url(../../custom/h1-bg.png) repeat-x center bottom !important; display: block; text-shadow: 2px 2px 0px #fff, 4px 4px 0px #dcde54; font-size: 2em;}
+
+
+#rightSidebar, #leftSidebar {
+    width: 220px; margin: 0; padding: 0 10px; 
+}
+
+#rightSidebar {padding-top: 90px; background:url(../../custom/side-head.png) no-repeat center 23px;}
+
+#rightSidebar .blockTitle {display: none !important;}
+
+#sidebar{
+    width: 240px;
+    margin: 0;
+    padding: 0;
+ 	float: right;
+}
+
+#rightSidebar .block {border-bottom: 4px solid #ee5230}
+
+#breadcrumb{
+	display:none;
+}
+/*
+#main h2{
+	display:none;
+}
+*/
+
+#footer {width: 990px; height: 10px !important; clear: both; background: #ee5230 url(../../custom/red-tile.jpg) repeat;}
+
+
+
+/**CURRENT ISSUE STYLES**/
+
+#currentjump a:hover{
+	text-decoration:none;
+	
+}
+
+#issueCoverImage {
+    clear: left;
+    float: left;
+}
+
+#issueCoverImage img{
+	-moz-box-shadow: 2px 3px 5px #444444;
+    -webkit-box-shadow: 2px 3px 5px #444444;
+    box-shadow: 2px 3px 5px #444444;
+	border:1px solid #818181;
+	float:left;
+}
+
+
+#issues #issueCoverImage img{
+	-moz-box-shadow: 2px 3px 7px #444444;
+    -webkit-box-shadow: 2px 3px 7px #444444;
+    box-shadow: 2px 3px 7px #444444;
+	border:0px;
+
+}
+
+
+
+/**FOOTER STYLES**/
+#custFooter{
+	float:left;
+	clear:both;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+
+/**ABOUT PAGE **/
+
+#pageTitle {
+    border-bottom: 1px solid #565656;
+    font-family: "New Times Roman",Times,serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+#mainM{
+	width:650px;
+	font-family:"New Times Roman", Times, serif;
+	color:#000000;
+	margin-bottom:90px;
+}
+
+#subTitle{
+		font-family:"New Times Roman", Times, serif;
+		font-size:14px;
+		padding-bottom:15px;
+		margin-bottom:15px;
+		border-bottom:1px solid #565656;
+		font-weight:bold;
+		
+}
+
+#pInfo{
+	font-family:"New Times Roman", Times, serif;
+    margin-bottom: 25px;
+    margin-top: 3px;
+}
+
+span.pTitle{
+   color: #565656;
+    font-family:"New Times Roman", Times, serif;
+    font-size: 13px;
+}
+
+span.nameTitle{
+	font-family:"New Times Roman", Times, serif;
+	font-weight:bold;
+}
+
+
+/**SUBMIT PAGE**/
+#subShell{
+}
+
+
+/**ARCHIVES**/
+#issues #issue{
+	border-top:solid 2px #660000;
+	margin-top:-5px;
+}
+
+
+div.separatorArchives{
+	display:none;
+}
+
+div.separator{
+	display:none;
+}
+
+#issues h3{
+	margin-top:20px;
+	color:#660000;
+}
+
+#biDisclaimer{
+ font-size: 15px;
+    margin-top: 55px;
+}
+#biDisclaimer ul{
+list-style: none;
+} 
+
+li.biTitle{
+color:#660000;
+}
+
