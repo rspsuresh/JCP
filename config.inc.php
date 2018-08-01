@@ -121,9 +121,10 @@ enable_beacon = On
 
 driver = mysql
 host = localhost
-username = root
-password =
-name =odc
+username = merjinfo_wp_6q0f
+password = Volvo@2017
+name = merjinfo_procom_db
+
 
 ; Enable persistent connections
 persistent = Off
